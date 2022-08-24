@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <u><title>Applicant form</title></head></u>
+</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+  *{
+      text-align: center;
+      font-family: 'Baloo Bhai 2', cursive;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+      p{
+      font-size: x-large;
+      }
+  #upload{
+      border: 3px solid;
+  }
+  .box{
+      text-align: center;
+  }
+    </style>
+    <body>
+        <u></u><h1 style="color: red;" class="section-title">***Personal Info***</h1></u>
+      <img height="250px" width="256px" src = "https://camo.githubusercontent.com/683e2187241c641430216c864ce93fc5a0e0dfb232c5a01d1c54b54d63aa8cb2/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313136323037372f73637265656e73686f74732f333834383931342f70726f6772616d6d65722e676966" alt="Profile photo">
+<article class="form-article">
+  <form class="contact-form">
+    <div class="form-group">
+     <label style="color: blue;" for="firstname">First Name</label>
+      <input type="text" id="firstname" placeholder="Your name"/>
+    </div><br>
+    <div class="form-group">
+      <label style="color: blue;" for="lastname">Last Name:</label>
+      <input id="lastname" type="text" placeholder="Your last name"/>
+    </div><br>
+    <div class="form-group">
+      <label style="color: blue;" for="email">Email:</label>
+      <input type="email" id="email" placeholder="Your email"/>
+    </div><br>
+    <div class="form-group">
+      <label style="color: blue;" for="number">Roll No.</label>
+      <input id="roll number" type="number" placeholder="Your company name"/>
+    </div><br>
+    <div class="form-group">
+      <label style="color: blue;" for="age">You Age: </label>
+      <input type = "number" id="age" name="age" placeholder="Age"/>
+    </div><br>
+    <div class="form-group">
+      <label style="color: blue;" for="date">Date of Birth</label>
+      <input id="date" type="datetime-local">
+    </div><br>
+    <div class="form-group">
+      <p>What are your skills?</p>
+      <input type="checkbox" id="html"/>
+      <label for="html">HTML</label>
+      <br />
+      <input type="checkbox" id="css"/>
+      <label for="css">CSS</label>
+      <br />
+      <input type="checkbox" id="js"/>
+      <label for="js">JavaScript</label>
+      <br />
+      <input type="checkbox" id="react"/>
+      <label for="js">React</label>
+      <br />
+      <input type="checkbox" id="redux"/>
+      <label for="redux">Redux</label>
+    </div>
+    <div class="form-group">
+      <label for="color">Your favorite</label>
+      <input id="color" type="color"/>
+    </div>
+
+    <div class="form-group">
+      <p>Gender</p>
+      <input type="radio" id="female" name="gender"/>
+      <label for="female">Female</label>
+      <br />
+      <input type="radio" id="male" name="gender"/>
+      <label for="male">Male</label>
+      <br />
+      <input type="radio" id="other" name="gender"/>
+      <label for="other">Other</label>
+    </div>
+
+    <div class="form-group">
+      <p>Select Your Country</p>
+      <select name="country" id="country">
+        <option value="">-Country-</option>
+        <option value="Finland">India</option>
+        <option value="Estonia">Nepal</option>
+        <option value="Sweden">Chaina</option>
+        <option value="Norway">Bangladesh</option>
+        <option value="Denmark">Denmark</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p>Select Your Course</p>
+      <select name="course" id="course">
+        <option value="">-Select Course-</option>
+        <option value="html-css">Basis of HTML and CSS</option>
+        <option value="js">Modern JavaScript</option>
+        <option value="pyhton">Python</option>
+        <option value="react">React</option>
+        <option value="data-analysis">Data Analysis with Python</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Leave your message here</label> <br/>
+      <textarea class="Boxes" cols="50" rows="10" id="message" placeholder="Write your message here..."
+      ></textarea>
+      <h3>Upload Your Documents Below</h3>
+    </div>
+    <div class="form-group">
+      <input type="file" id="file-input"/>
+      <label id="upload" for="file-input"><i class="fas fa-upload"></i>Upload File</label>
+    </div>
+    <div>
+      <input type="checkbox" id="agree"/>
+      <label for="agree">Be sure that all the information is yours and true.</label>
+    </div>
+    <div class="btn">
+      <input type="submit" value="Submit"/>
+    </div>
+  </form>
+</article>
+    </body>
+</html>
